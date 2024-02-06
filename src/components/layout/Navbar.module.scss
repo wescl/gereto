@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    background-color: #eee;
+    padding: .7em;
+    margin-bottom: 1%;
+
+    ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        width: 100%;
+        justify-content: flex-end;
+
+        li {
+            margin: auto .5em;
+
+            &.home {
+                margin-right: auto;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1em;
+                font-weight: 900;
+                text-transform: uppercase;
+                transition: color .3s;
+                color: var(--primaria);
+                letter-spacing: 1.3px;
+                &:hover {
+                    color: var(--primaria-escura);
+                }
+            }
+        }
+    }
+
+}
+
+.active a {
+    color: #000000 !important;
+    transition: all .5s;
+    font-weight: 800;
+    text-decoration: double;
+    border-bottom: 3px solid var(--primaria);
+}

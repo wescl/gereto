@@ -1,0 +1,45 @@
+.button {
+    margin: 20px auto;
+
+    button {
+        position: relative;
+        padding: 17px 10px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        background-color: var(--secundaria);
+        border-radius: 2px;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: all 0.2s;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        outline: none;
+        min-height: 3.4em;
+
+        &:hover {
+            background-color: var(--primaria);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        &:active {
+            transform: scale(0.95);
+            border-radius: 5px;
+
+        }
+    }
+}
+
+.pequeno {
+    width: 30%;
+}
+
+.medio {
+    width: 50%;
+}
+
+.grande {
+    width: 100%;
+}

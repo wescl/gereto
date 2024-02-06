@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "id": "83ab",
+      "budget": "3453",
+      "name": "gvf",
+      "category": "Infraestrutura",
+      "description": "rth",
+      "cost": 999,
+      "services": [
+        {
+          "name": "wefw",
+          "cost": "435",
+          "description": "rw",
+          "id": "c1355532-03bb-44c3-9de7-5ce64e46c323"
+        },
+        {
+          "name": "thrh",
+          "cost": "564",
+          "description": "thrt",
+          "id": "b9ee193d-ce59-4701-be7d-c1d299e46db0"
+        }
+      ]
+    },
+    {
+      "id": "4e71",
+      "budget": "76654",
+      "name": "yjt",
+      "category": "Planejamento",
+      "description": "rth",
+      "cost": 3397,
+      "services": [
+        {
+          "name": "64",
+          "cost": "7",
+          "description": "rth",
+          "id": "906bc359-5520-4593-ad31-f3c2822e01ea"
+        },
+        {
+          "name": "egr",
+          "cost": "565",
+          "description": "ger",
+          "id": "11561d74-14ab-475a-b3c3-d89ff06dde95"
+        },
+        {
+          "name": "egrhtr",
+          "cost": "565",
+          "description": "ger",
+          "id": "b16e5d67-ad44-4313-9155-7848f039a47e"
+        },
+        {
+          "name": "egrhtr",
+          "cost": "565",
+          "description": "ger",
+          "id": "3668d6dc-33e9-4c01-9ca3-19449022653e"
+        },
+        {
+          "name": "ew",
+          "cost": "565",
+          "description": "ger",
+          "id": "ad3b19c0-7324-4dbf-a45e-3baebc5a110e"
+        },
+        {
+          "name": "ew",
+          "cost": "565",
+          "description": "ger",
+          "id": "aec37bc7-3edb-4802-91b4-798af2683194"
+        },
+        {
+          "name": "ew",
+          "cost": "565",
+          "description": "ger",
+          "id": "87e76df6-00c3-4b69-b848-a93730a8a49e"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infraestrutura"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

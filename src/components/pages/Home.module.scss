@@ -1,0 +1,47 @@
+.section {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+
+    h1 {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 20px;
+        margin: -2px;
+        font-weight: 700;
+
+        span {
+            font-weight: 900;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+    }
+
+    p {
+        font-size: 1.4em;
+        color: #555;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+}
+
+.animation_img {
+    margin-top: 3%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        width: 250px;
+        height: auto;
+        border-radius: 5px;
+        animation: rotateInfinitely 60s linear infinite;
+    }
+
+    @keyframes rotateInfinitely {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

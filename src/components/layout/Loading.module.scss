@@ -1,0 +1,37 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    svg {
+        font-size: 3em;
+        animation: spin 1.8s infinite linear;
+    }
+
+    .pequeno {
+        font-size: 1em;
+        color: #eee;
+
+    }
+
+    .medio {
+        font-size: 2em;
+        color: #eee;
+    }
+
+    .grande {
+        font-size: 5em;
+    }
+}

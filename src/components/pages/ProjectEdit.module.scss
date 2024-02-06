@@ -1,0 +1,149 @@
+.edit_container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.edit_container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4em;
+    margin: 1.5em 0;
+    color: var(--primaria);
+    letter-spacing: 1.4px;
+}
+
+.edit_container .info_project {
+    margin-top: 5%;
+    padding: 10px;
+    position: relative;
+}
+
+.edit_container .info_project h2 {
+    color: #333;
+}
+
+.budget,
+.cost,
+.description {
+    margin: 8px 0;
+    color: #555;
+
+    strong {
+        letter-spacing: 1.3px;
+    }
+}
+
+.budget,
+.cost {
+    color: #008000;
+
+    strong {
+        letter-spacing: 1.3px;
+        color: #555;
+    }
+}
+
+.cost {}
+
+.description {
+    text-align: justify;
+}
+
+.project_service_list {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project_service_list p {
+    color: #555;
+}
+
+.modal_button {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    position: absolute;
+    right: 2%;
+    top: -1px;
+    background-color: var(--secundaria);
+    color: #eee;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all .4s;
+
+    svg {
+        color: #eee;
+        margin-left: 5px;
+        font-size: 1.1em;
+    }
+
+    &:hover {
+        background-color: var(--primaria);
+    }
+}
+
+form {
+    button {
+        position: relative;
+        font-size: 13px;
+        text-align: center;
+        text-decoration: none;
+        min-height: 3.5em;
+        cursor: pointer;
+        border: none;
+        background-color: var(--secundaria);
+        border-radius: 2px;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: all 0.2s;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        outline: none;
+        width: 30%;
+
+        &:hover {
+            background-color: var(--primaria);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        &:active {
+            transform: scale(0.95);
+            border-radius: 5px;
+
+        }
+    }
+}
+
+.confirm {
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    min-height: 2.9em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--secundaria);
+    border-radius: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    outline: none;
+    width: 30%;
+
+    &:hover {
+        background: var(--primaria);
+        color: white;
+    }
+}
+
+.redText {
+    color: red;
+}

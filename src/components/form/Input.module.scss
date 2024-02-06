@@ -1,0 +1,43 @@
+.input_group{
+    position: relative;
+    margin-bottom: 1em;
+
+    label {
+        position: absolute;
+        padding: 0 5px;
+        font-size: .7em;
+        top: -8px;
+        left: 12px;
+        background: #eee;
+        color: var(--primaria);
+        margin-bottom: 5px;
+    }
+    
+    input, textarea {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 13px 10px;
+        font-size: .9em;
+        background: #eee;
+        border: 2px solid #80808087;
+        border-radius: 1px;
+        transition: border-color 0.3s;
+        color: #3c3c3c;
+    
+        &:focus {
+            border: 2px solid #808080;
+            outline: none;
+    
+            label{
+                top: -100px;
+            }
+        }
+    }
+    
+    textarea {
+        min-height: 100px;
+        max-height: 290px;
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+}
