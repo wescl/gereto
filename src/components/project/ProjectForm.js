@@ -78,20 +78,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     }
 
     if (!formData.category) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        category: "Selecione uma categoria.",
-      }));
-
-      delay(3100).then(() => {
-        setErrors((prevErrors) => ({
-          ...prevErrors,
-          category: "",
-        }));
-      });
-
-      setLoading(false);
-      return;
+      formData.category = "Desenvolvimento";
     }
 
     if (!formData.description || !formData.description.trim()) {
